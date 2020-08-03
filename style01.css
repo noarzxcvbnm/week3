@@ -60,26 +60,47 @@ table {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.head img{
+
+h1 a{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/a3ed9441c2522e2b8edb35a9847121eb3e6af16e/student-week1/logo-all-dark.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent:200%;
+    overflow:hidden;
+    white-space:nowrap;
     margin-left: 30px;
+    display: block;
+    width: 219px;
+    height: 80px;
 }
 
 .menu{
     display: flex;
 }
 
-.menu li{
-    width: 92px;
-    
+.menu a{
+    display: block;
+    font: bold 16px 微軟正黑體;
+    color: #3F5D45;
+    line-height: 80px;
+    text-decoration: none;
+    padding: 0px 30px 0px 30px;
     
 }
 
-.menu a{
-    font: bold 16px 微軟正黑體;
-    color: #3F5D45;
-    line-height: 73px;
-    text-decoration: none;
+.menu a:hover{
+    background-color: #EAF0ED;
+    color: white;
 }
+.menu .car{
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/shopping_cart.png?raw=true) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent:200%;
+    overflow:hidden;
+    white-space:nowrap;
+}
+
 
 .banner img{
     max-width: 100%;
@@ -211,6 +232,10 @@ table {
     background-color: #EAF0ED;
     border: solid #EAF0ED 1px;
 }
+.button a:hover{
+    background-color:#3F5D45;
+    color: white;
+}
 
 .page{
     display: flex;
@@ -238,7 +263,7 @@ table {
 }
 
 .page a:hover{
-    background-color: #3F5D45;
+    background-color: #EAF0ED;
     color: white;
 }
 .footer{
@@ -303,8 +328,6 @@ label{
     height: 56px;
     background: #FFE180 no-repeat url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/arrow_forward-24px.png?raw=true) center;
     border: none;
-    
-
 }
 
 .submit{
@@ -359,11 +382,21 @@ label{
     display: flex;
 }
 
-.icone-footer li{
+.icone-footer a{
+    display: block;
     width: 32px;
     height: 32px;
     margin-right: 8px;
-    
+    text-indent: 101%;
+    overflow:hidden;
+    white-space:nowrap;
+
+}
+.line{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/4baf15e7aa2800a1e312de01435b7dbf6f654843/student-week1/ic-line%40.svg);
+}
+.FB{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/4baf15e7aa2800a1e312de01435b7dbf6f654843/student-week1/ic-facebook.svg);
 }
 .icone-footer p{
     font: 16px 微軟正黑體;
@@ -430,7 +463,7 @@ label{
         margin-bottom: 0px;
     }
     .menu02{
-        width: 100%;
+        max-width: 100%;
         margin-bottom: 30px;
     }
     .commodity{
@@ -454,3 +487,4 @@ label{
     }
 
 }
+
