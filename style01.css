@@ -59,6 +59,7 @@ table {
     justify-content: space-between;
     margin-top: 10px;
     margin-bottom: 10px;
+    position: relative;
 }
 
 h1 a{
@@ -76,6 +77,10 @@ h1 a{
 
 .menu{
     display: flex;
+    
+}
+.active{
+    max-height: 300px !important;
 }
 
 .menu a{
@@ -414,7 +419,7 @@ label{
     .head .car-pic{
         display: none;
     }
-    .head .line3{
+    .head .menu-btn{
         display: none;
     }
 }
@@ -454,13 +459,27 @@ label{
 }
 @media(max-width:767px){
     .menu{
-    display:none;
+        text-align: center;
+        z-index: 1;
+        background-color:white ;
+        max-height: 0px;
+        display:flex;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        transition: all 0.8s;
+        overflow: hidden;
+     }
+     .car-li{
+         display: none;
      }
     .head .car-pic{
     display: block;
     margin-right: 30px;
     }
-    .head .line3{
+    .head .menu-btn{
     display: block;
     margin-left: 30px;
     }
