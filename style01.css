@@ -120,16 +120,16 @@ h1 a{
     display: flex;
     justify-content: space-between;
 }
-.menu02{
+.product-classification{
     width: 300px;
     margin-bottom: 30px;
     
 }
-.menu02 li{
+.product-classification li{
     text-align: center;
     
 }
-.menu02 h2{
+.product-classification h2{
     font: bold 24px 微軟正黑體;
     color: white;
     text-decoration: none;
@@ -140,7 +140,7 @@ h1 a{
     border:solid #3F5D45 1px;
 }
 
-.menu02 a{
+.product-classification a{
     font: bold 24px 微軟正黑體;
     color: #3F5D45;
     text-decoration: none;
@@ -152,7 +152,7 @@ h1 a{
     border:solid #EAF0ED 1px;
 }
 
-.menu02 a:hover{
+.product-classification a:hover{
     background-color: #EAF0ED;
 }
 
@@ -172,6 +172,7 @@ h1 a{
     width: 300px;
     margin-bottom: 20px;
     position: relative;
+    margin: 0 auto;
 }
 
 .daily-recommendation{
@@ -424,7 +425,7 @@ label{
         flex-direction:column;
         align-items: center;
     }
-    .menu02{
+    .product-classification{
         width: 620px;
     }
     .page{
@@ -466,7 +467,7 @@ label{
     .banner img{
         margin-bottom: 0px;
     }
-    .menu02{
+    .product-classification{
         max-width: 100%;
         margin-bottom: 30px;
     }
